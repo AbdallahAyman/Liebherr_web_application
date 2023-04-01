@@ -21,7 +21,10 @@ import VueSocketIO from 'vue-socket.io';
 
 export const SocketInstance = socketio('http://localhost:3000/');
 
-Vue.use(VueSocketIO,SocketInstance)
+Vue.use(new VueSocketIO({
+  debug: true,
+  connection: SocketInstance
+}))
 
 
 
