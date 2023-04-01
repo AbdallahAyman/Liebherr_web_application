@@ -23,7 +23,7 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-### backend
+### Backend
 install mongodb, create a database "lib" and run the service
 
 node app.js
