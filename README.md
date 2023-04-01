@@ -22,3 +22,10 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### backend
+install mongodb, create a database "lib" and run the service
+
+node app.js
+
+node chat.js
